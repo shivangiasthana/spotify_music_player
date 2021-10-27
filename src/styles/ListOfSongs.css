@@ -1,0 +1,99 @@
+.listsongs{
+   background: linear-gradient(rgb(92, 90, 90),rgb(14, 13, 13));
+   height:260px;
+   display: flex;
+   align-items: center;
+}
+.songimg{
+    height:220px;
+    width:180px;
+    /* background-color: greenyellow; */
+    border-radius: 2px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.songDes{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.dailymix{
+    font-size: 65px;
+    font-weight: bolder;
+    /* letter-spacing: 1.5px; */
+    color: rgb(243, 243, 243);
+}
+.playlist{
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: rgb(223, 219, 219);
+}
+.author{
+    margin-top: 10px;
+    font-size: 11px;
+    letter-spacing: 0px;
+    color: rgb(158, 153, 153);
+    font-weight: bold;
+}
+.spotify{
+    font-weight: bold;
+    color: rgb(243, 243, 243);
+}
+.listOfSOngs{
+    height: 100%;
+    background-color: rgb(17, 16, 16);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 20px;
+    overflow: visible;
+}
+.songslist{
+    /* background-color: hotpink; */
+    width:74vw
+
+}
+.play{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background-color: rgb(73, 175, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    /* background-color: green; */
+    padding-left: 12px;
+    align-items: center;
+}
+.value{
+    font-size: 13px;
+    color: rgb(194, 201, 194);
+}
+.addedpadding{
+    padding-left: 2vw;
+}
+.maincon{
+    display: flex;
+    flex-direction: row;
+}
+.album {
+    padding-left: 40.5vw;
+    /* background-color: hotpink; */
+}
+.time{
+    padding-left: 22vw;
+}
+.albumName{
+    padding-left: 22.5vw;
+    /* background-color: hotpink; */
+}

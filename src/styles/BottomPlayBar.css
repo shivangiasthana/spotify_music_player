@@ -1,0 +1,10 @@
+.bottomPlay{
+    background-color: rgb(24, 24, 24);
+    height: 13vh;
+    /* width:100px; */
+    position: fixed;
+    bottom: 0;
+    z-index: 100000;
+    width: 100%;
+
+}

@@ -1,0 +1,138 @@
+.mainContainer{
+    width:79.7%;
+    margin-left: 20vw;
+    /* background-color: yellow; */
+    position: absolute;
+    top:0;
+}
+.topNav{
+    height: 6vh;
+    background: rgb(92, 90, 90);
+    display: flex;
+    justify-content: space-between;
+   
+}
+.topNavSongs{
+    height: 6vh;
+    background-color: black;
+    
+    display: flex;
+    justify-content: space-between;
+   
+}
+.prevNext{
+    margin-left: 2vw;
+    align-items: center;
+    display:flex;
+}
+.userName{
+display: flex;
+flex-direction: row;
+margin-right: 2vw;
+/* background-color: turquoise; */
+/* align-items: center; */
+}
+.btn{
+    color: whitesmoke;
+    background-color:rgb(20, 19, 19);
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    /* background-color: turquoise; */
+    width:100px;
+}
+.user{
+    background-color: rgb(20, 19, 19);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.artists{
+    /* height:100vh; */
+    background-color: rgb(24, 23, 23);
+    padding-left:28px;
+    padding-right: 25px;
+}
+.seeAll{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: tomato; */
+}
+.headertext{
+    color: grey;
+    font-size: 12px;
+}
+.see{
+    color: rgb(165, 158, 158);
+    font-weight: bold;
+}
+.listOfArtists{
+    padding-top:15px;
+    padding-bottom:15px;
+    /* margin: 0 auto; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+    /* background-color: greenyellow; */
+}
+.artist{
+    height: 250px;
+    width: 170px;
+    background-color: rgb(31, 30, 31);
+    border-radius: 4px;
+}
+.recentListening{
+    display: flex;
+    flex-direction: column;
+}
+.recent{
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.listen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.picture{
+    height:130px;
+    width:130px;
+    /* background-color: greenyellow; */
+    border-radius: 100px;
+    margin-left: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.atitle{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.aname{
+    padding-top: 5px;
+}
+.itemname{
+    color: whitesmoke;
+    font-size:14px;
+    font-weight: bold;
+}
+.recentList{
+    height:220px;
+    width:150px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top:15px;
+    /* background-color: red; */
+}
+.round{
+    background-color: rgb(17, 17, 17);
+    border-radius: 50px;
+}
