@@ -1,3 +1,8 @@
+sample music player project, inspired by spotify UI , displaying artists and their songs 
+Screen 1 - List of hardcoded artists are added 
+Screen 2 - List of song's title of one artist fetched from api
+Search functionality to search artists by their name
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
